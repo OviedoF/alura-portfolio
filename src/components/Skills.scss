@@ -1,0 +1,15 @@
+.skills {
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+    h2 {
+        margin-top: 50px;
+    }
+
+    .skills-rect{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
