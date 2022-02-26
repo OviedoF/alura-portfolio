@@ -10,8 +10,8 @@ const Presentation = () => {
                 <p>Soy formado en Front-End, un entusiasta de la tecnología y del conocimiento, sobre todo en mi rama. ;)</p>
 
                 <div className='Presentation__socialMedia'>
-                    <a href='#'>LinkedIn</a>
-                    <a href='#'>Github</a>
+                    <a href='https://www.linkedin.com/in/federico-oviedo-98663221a/'>LinkedIn</a>
+                    <a href='https://github.com/OviedoF'>Github</a>
                     <a href='#'>Currículo</a>
                 </div>
             </div>
