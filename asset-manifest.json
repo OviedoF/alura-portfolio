@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alura-portfolio/static/css/main.14f5d9f2.css",
-    "main.js": "/alura-portfolio/static/js/main.0de2d93c.js",
+    "main.css": "/alura-portfolio/static/css/main.f57b828a.css",
+    "main.js": "/alura-portfolio/static/js/main.02248416.js",
     "static/media/Aerolinea Nostrus Landing Page.png": "/alura-portfolio/static/media/Aerolinea Nostrus Landing Page.01dc144c5e8e431538dd.png",
     "static/media/TaskMeApp.png": "/alura-portfolio/static/media/TaskMeApp.90e4b887437da84472cf.png",
     "static/media/SongFinder .png": "/alura-portfolio/static/media/SongFinder .a587b0a035b2650c3b34.png",
@@ -23,11 +23,11 @@
     "static/media/VIDEOJUEGOS.png": "/alura-portfolio/static/media/VIDEOJUEGOS.43a613a73888295c0e29.png",
     "static/media/CSS.png": "/alura-portfolio/static/media/CSS.286a9900f844f7c0ed5f.png",
     "index.html": "/alura-portfolio/index.html",
-    "main.14f5d9f2.css.map": "/alura-portfolio/static/css/main.14f5d9f2.css.map",
-    "main.0de2d93c.js.map": "/alura-portfolio/static/js/main.0de2d93c.js.map"
+    "main.f57b828a.css.map": "/alura-portfolio/static/css/main.f57b828a.css.map",
+    "main.02248416.js.map": "/alura-portfolio/static/js/main.02248416.js.map"
   },
   "entrypoints": [
-    "static/css/main.14f5d9f2.css",
-    "static/js/main.0de2d93c.js"
+    "static/css/main.f57b828a.css",
+    "static/js/main.02248416.js"
   ]
 }
