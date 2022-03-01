@@ -1,7 +1,7 @@
 import React from 'react';
 import './OneWork.scss';
 
-const OneWork = ({img, nombre, desarrollo, right}) => {
+const OneWork = ({img, nombre, desarrollo, right, urlRep, urlPage}) => {
     return ( 
         <div className='work'>
             {!right && 
@@ -9,8 +9,12 @@ const OneWork = ({img, nombre, desarrollo, right}) => {
                         <h3>{nombre}</h3>
                         <p>{desarrollo}</p>
                         <div className='buttons'>
-                            <button className='Repositorio'>Repositorio</button>
-                            <button className='Ver'>Ver</button>
+                            <button className='Repositorio'>
+                                <a href={urlRep} target='_blank'>Repositorio</a>
+                            </button>
+                            <button className='Ver'>
+                                <a href={urlPage} target='_blank'>Ver</a>
+                            </button>
                         </div>
                     </div>
             }
@@ -22,8 +26,8 @@ const OneWork = ({img, nombre, desarrollo, right}) => {
                         <h3>{nombre}</h3>
                         <p>{desarrollo}</p>
                         <div className='buttons'>
-                            <button className='Repositorio'>Repositorio</button>
-                            <button className='Ver'>Ver</button>
+                            <button className='Repositorio'><a href={urlRep} target='_blank'>Repositorio</a></button>
+                            <button className='Ver'><a href={urlPage} target='_blank'>Ver</a></button>
                         </div>
                     </div>
             }
