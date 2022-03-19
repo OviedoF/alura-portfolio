@@ -1,35 +1,35 @@
-import React from 'react';
-import Footer from './Footer';
-import NavBar from './NavBar';
-import MainSection from './MainSection';
-import './MainComponent.scss'
-import Skills from './Skills';
-import Formacion from './Formacion';
-import Works from './Works';
-import ContactForm from './ContactForm';
+import React from "react";
+import Footer from "./Footer";
+import NavBar from "./NavBar";
+import MainSection from "./MainSection";
+import "./MainComponent.scss";
+import Skills from "./Skills";
+import Formacion from "./Formacion";
+import Works from "./Works";
+import ContactForm from "./ContactForm";
 
 const MainComponent = () => {
-    return ( 
-        <div className='main-container'>
-                <NavBar />
+  return (
+    <div className="main-container">
+      <NavBar />
 
-                <main>
-                    <MainSection />
+      <main>
+        <MainSection />
 
-                    <Skills />
+        <Skills />
 
-                    <Formacion />
+        <Formacion />
 
-                    <Works />
+        <Works />
 
-                    <ContactForm />
-                </main>
+        <ContactForm />
+      </main>
 
-                <footer>
-                    <p>Desarrollado por Oviedo Federico</p>
-                    <p>2022</p>
-                </footer>
-        </div>
-     );
-}
+      <footer>
+        <p>Desarrollado por Oviedo Federico</p>
+        <p>2022</p>
+      </footer>
+    </div>
+  );
+};
 export default MainComponent;

@@ -1,113 +1,112 @@
 .formacion {
-    margin-top: 18px;
-    text-align: center;
-    width: 126.5%;
-    height: 781px;
+  margin-top: 18px;
+  text-align: center;
+  width: 126.5%;
+  height: 781px;
+  position: relative;
+  left: -14%;
+  height: 883px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #eaf2fd;
+
+  .courses-container {
+    width: 1136px;
+    display: flex;
+    flex-wrap: wrap;
     position: relative;
-    left: -14%;
-    height: 883px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    background-color:#EAF2FD;
+    left: 14%;
+    justify-content: center;
+    left: 14%;
 
-    .courses-container{
-        width: 1136px;
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        left: 14%;
-        justify-content: center;
-        left: 14%;
+    .formacion-component {
+      margin-left: 50px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      .formacion-rec {
+        width: 280px;
+        height: 280px;
+        background-color: #ffffff;
 
-        .formacion-component{
-            margin-left: 50px;
-            display: flex;
-            justify-content: space-between;
-            flex-direction: column;
-                .formacion-rec{
-                    width: 280px;
-                    height: 280px;
-                    background-color: #FFFFFF;
-            
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        object-fit: cover;
-                    }
-                }
-
-                & > p, & > h3 {
-                    text-align: left;
-                    margin-top: 10px;
-                }
-            
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
         }
+      }
+
+      & > p,
+      & > h3 {
+        text-align: left;
+        margin-top: 10px;
+      }
     }
-}
-
-@media only screen and (max-width: 768px){
-    .formacion {
-        height: 488px;
-        width: 100%;
-        left: 0px;
-        .courses-container {
-            left: 0;
-            width: 100%;
-            margin-left: 25px;
-            .formacion-component{
-                margin-left: 16px;
-
-                .formacion-rec {
-                    width: 224px;
-                    height: 118px;
-                    margin-top: 10px;
-                    
-                    img {
-                        width: 50%;
-                    }
-                }
-
-                h3 {
-                    font-size: 16px;
-                }
-            }
-        }
-    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    .formacion {
-        height: 888px;
-        width: 100%;
-        left: 0px;
-        .courses-container {
-            left: 0;
-            width: 100%;
-            margin-left: 0;
-            .formacion-component{
-                margin-left: 16px;
-                margin-top: 30px;
+  .formacion {
+    height: 488px;
+    width: 100%;
+    left: 0px;
+    .courses-container {
+      left: 0;
+      width: 100%;
+      margin-left: 25px;
+      .formacion-component {
+        margin-left: 16px;
 
-                .formacion-rec {
-                    width: 224px;
-                    height: 118px;
-                    margin-top: 10px;
-                    
-                    img {
-                        width: 50%;
-                    }
-                }
+        .formacion-rec {
+          width: 224px;
+          height: 118px;
+          margin-top: 10px;
 
-                h3 {
-                    font-size: 16px;
-                    margin: 0;
-                }
-
-                p{
-                    margin: 0;
-                }
-            }
+          img {
+            width: 50%;
+          }
         }
+
+        h3 {
+          font-size: 16px;
+        }
+      }
     }
+  }
 }
 
+@media only screen and (max-width: 1024px) {
+  .formacion {
+    height: 808px;
+    width: 100%;
+    left: 0px;
+    .courses-container {
+      left: 0;
+      width: 100%;
+      margin-left: 0;
+      .formacion-component {
+        margin-left: 16px;
+        margin-top: 30px;
+
+        .formacion-rec {
+          width: 224px;
+          height: 118px;
+          margin-top: 10px;
+
+          img {
+            width: 50%;
+          }
+        }
+
+        h3 {
+          font-size: 16px;
+          margin: 0;
+        }
+
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
+}

@@ -1,21 +1,21 @@
 @media only screen and (max-width: 600px) {
-    .main-container{
-        width: 98%;
-        margin-left: 5px;
-    }
+  .main-container {
+    width: 90%;
+    margin-left: 5px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-    .main-container{
-        width: 95%;
-        margin: auto auto;
-    }
+  .main-container {
+    width: 95%;
+    margin: auto auto;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    .main-container{
-        width: 80%;
-        margin: auto auto;
-    }
+  .main-container {
+    width: 80%;
+    margin: auto auto;
+  }
 }
